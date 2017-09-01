@@ -31,3 +31,4 @@ for(var i = 0; i < listings.entries.length; i++){
   Once you've written + run the script, check out your MongoLab database to ensure that 
   it saved everything correctly. 
  */
+ mongoose.connection.close();
